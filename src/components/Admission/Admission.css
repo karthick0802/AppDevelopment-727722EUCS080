@@ -1,0 +1,66 @@
+/* Admission Page Styling */
+.page-background {
+  background: #ffffff; /* White background for the Admission page */
+  padding: 60px 20px; /* Padding around content */
+  margin-top: 60px; /* Margin to ensure content is below the fixed header */
+  min-height: calc(100vh - 60px); /* Full height minus the header height */
+}
+
+.page-background .container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  background: #f9f9f9; /* Light background for better contrast */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.page-background h2 {
+  margin-bottom: 20px;
+  color: #003a71; /* Dark Blue */
+}
+
+.page-background .form-group {
+  margin-bottom: 20px;
+}
+
+.page-background .form-group label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+.page-background .form-group select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.page-background .form-group textarea {
+  resize: vertical;
+  min-height: 100px; /* Ensure textareas are tall enough */
+}
+
+.page-background button {
+  padding: 10px 20px;
+  background-color: #003a71;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.page-background button:hover {
+  background-color: #004b87;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .page-background .container {
+    padding: 15px;
+  }
+}
